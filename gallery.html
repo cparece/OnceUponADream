@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Once Upon A Dream</title>
+
+<!-- JQuery -->
+<script src="jQueryUI_1.11.4/external/jquery/jquery.js"></script>
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="Bootstrap_3.3.4/css/bootstrap.min.css">
+
+<!-- Bootstrap JS -->
+<script src="Bootstrap_3.3.4/js/bootstrap.min.js"></script>
+
+<!-- Skeleton -->
+<link rel="stylesheet" href="Skeleton_2.0.4/css/skeleton.css">
+
+
+<!-- My Stylesheet -->
+<link rel="stylesheet" href="css/post_style.css">
+<link rel="stylesheet" href="css/bootstrap-override.css">
+
+<!-- Fonts -->
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,400italic,600,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700' rel='stylesheet' type='text/css'>
+
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+
+<body onload="preloadImages()">
+
+  <img class="clouds" src="images/clouds.png"></img>
+
+  <header>
+    <img src="images/ScrollBar.png" class="head" alt="Once Upon A Dream">
+    <h1>Once Upon A Dream</h1>
+
+  </img>
+    <img class="cloud" src="images/cloud.png"></img>
+
+  </header>
+  <!-- Navagation -->
+  <div class="navigation">
+
+
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="Home.html"> Once Upon A Dream</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="Home.html">Home</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Theme Parks <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Magic Kingdom</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Animal Kingdom</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Hollywood Studios</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Epcot</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dining <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Magic Kingdom</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Animal Kingdom</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Hollywood Studios</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Epcot</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Downtown Disney</a></li>
+                <li class="divider"></li>
+                <li><a href="dining/ChefMickeys.html">Resort Dining: Chef Mickey's</a></li>
+
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Trip Tips <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Magic Kingdom</a></li>
+                <li class="divider"></li>
+              </ul>
+            </li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="gallery.html">Gallery</a></li>
+                <li><a href="#">About Me</a></li>
+
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+  </div>
+  <!-- Body -->
+  <div class="body">
+    <div class="container">
+
+      <div class="row">
+          <div class="thumbnails" align="center">
+            <div class="thumbnail_container">
+            <img class="gallery_image" onClick="swapImage(0)" name="img1" src="gallery/AK_DINOcopy.jpeg" alt="Animal Kingdom" />
+          	<img class="gallery_image" onClick="swapImage(1)" name="img2" src="gallery/AK_ENTRcopy.jpeg" alt="Animal Kingdom" />
+          	<img class="gallery_image" onClick="swapImage(2)" name="img3" src="gallery/AK_EXPEcopy.jpeg" alt="Animal Kingdom" />
+          	<img class="gallery_image" onClick="swapImage(3)" name="img4" src="gallery/AK_RPWCcopy.jpeg" alt="Animal Kingdom" />
+          	<img class="gallery_image" onClick="swapImage(4)" name="img5" src="gallery/AK_RPWC2copy.jpeg" alt="Animal Kingdom" />
+          </div>
+      </div>
+    <div class="row">
+
+        <div align="center" >
+               <img class="gallery_preview" id="theImage" src="gallery/AK_DINO.jpeg" alt="Animal Kingdom"/>
+        </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <div class="footer">
+
+  </div>
+
+</body>
+<script src="js/gallery.js"></script>
+
+</html>

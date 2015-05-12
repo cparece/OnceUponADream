@@ -9,6 +9,15 @@ font-family: 'Titillium Web', sans-serif;
   background-color: #7ac5ff;
 }
 
+.arrowsection {
+  height:400px;
+  padding: 100px;
+  float: right;
+}
+
+.justify {
+  text-align: justify;
+}
 
 .leftText {
 text-align: left;
@@ -71,7 +80,31 @@ text-align: center;
   right:10%;
 }
 
-/** Navigation uses Bootstrap **/
+
+/** Gallery **/
+.thumbnails {
+overflow: hidden;
+}
+
+.thumbnail_container{
+  width: 600px;
+  white-space: nowrap;
+
+}
+.gallery_image {
+height:75px;
+border: 1px solid #ffffff;
+margin: 5px;
+cursor: pointer;
+}
+
+.gallery_preview {
+  height: 350px;
+  border: 2px solid #ffffff;
+}
+
+
+  /** Navigation uses Bootstrap **/
 
 /** Body **/
 h2 {
@@ -143,4 +176,16 @@ a, a:hover {
       font-size:1.2em;
       line-height: 40px;
     }
+}
+
+/** Parallex Scroll **/
+
+#slide2{
+    background-color: #7ac5ff;
+    color: #333333;
+    height: 650px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 20px 0;
+    width: 100%;
 }
